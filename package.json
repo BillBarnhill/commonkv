@@ -1,0 +1,51 @@
+{
+    "name": "commonkv",
+    "version": "0.0.1",
+    "description": "Commonkv is designed as an API for accessing NOSQL Key,Value stores. It also includes an implementation of the commonkv API to access a simple in memory KV store.",
+   "keywords": [
+        "nosql",
+        "javascript",
+        "datastore"
+    ],
+    "maintainers": [
+        {
+            "name": "Bill Barnhill",
+            "email": "w.a.barnhill@gmail.com"
+       }
+    ],
+    "bugs": {
+        "mail": "w.a.barnhill@gmail.com",
+        "web": "http://github.com/BillBarnhill/commonkv/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/BillBarnhill/commonkv/blob/master/LICENSE.txt"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "http://github.com/BillBarnhill/commonkv.git"
+        }
+    ],
+    "dependencies": {
+   },
+    "os": [
+        "linux",
+        "macos",
+        "win"
+    ],
+    "cpu": [
+        "x86",
+        "ppc",
+        "x86_64"
+    ],
+    "engines": [
+        "node"
+    ],
+    "directories": {
+        "lib": "lib"
+    },
+    "main": "./lib/commonkv-mem.js"
+}
